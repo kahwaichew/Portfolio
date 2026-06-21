@@ -5,7 +5,7 @@ import ResumeModal from './ResumeModal';
 
 export default function Hero() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
-  const avatarPath = '/src/assets/images/chew_avatar_hero_1782045735968.png';
+  const avatarPath = '/src/assets/images/avatar.png';
 
   // Animation variants
   const containerVariants = {

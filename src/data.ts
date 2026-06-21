@@ -77,7 +77,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'FitNect',
     description: 'A fitness marketplace app for booking personal trainers and coaches, scheduling workouts, and tracking fitness journeys with an activity log.',
     tags: ['Figma', 'Mobile', 'Dark Theme', 'Marketplace'],
-    imageSrc: '/src/assets/images/fitnect_showcase_1782045750705.png',
+    imageSrc: '/src/assets/images/fitnect.png',
     imageLeft: true
   },
   {
@@ -86,7 +86,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'Mr.Toy',
     description: 'A loyalty app for Mr.Toy retail chain — enabling customers to collect points, track membership tiers, redeem vouchers, and browse personalized promos.',
     tags: ['Figma', 'Mobile', 'Loyalty', 'CRM'],
-    imageSrc: '/src/assets/images/mr_toy_showcase_1782045762185.png',
+    imageSrc: '/src/assets/images/mrtoy.png',
     imageLeft: false
   },
   {
@@ -95,7 +95,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'GoTani',
     description: 'A PaaS smart farming platform — farm dashboard, drone mapping, IoT sensor monitoring, task management, and tree health analytics for remote farm management.',
     tags: ['Figma', 'Web', 'Mobile', 'Dashboard', 'IoT'],
-    imageSrc: '/src/assets/images/gotani_showcase_1782045778400.png',
+    imageSrc: '/src/assets/images/gotani.png',
     imageLeft: true
   }
 ];
