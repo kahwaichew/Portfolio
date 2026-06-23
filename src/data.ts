@@ -1,4 +1,7 @@
 import { SkillCategory, Project, DesignItem, ResearchItem } from './types';
+import fitnectImg from './assets/images/fitnect.jpg';
+import mrtoyImg from './assets/images/mrtoy.jpg';
+import gotaniImg from './assets/images/gotani.jpg';
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
@@ -77,7 +80,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'FitNect',
     description: 'A fitness marketplace app for booking personal trainers and coaches, scheduling workouts, and tracking fitness journeys with an activity log.',
     tags: ['Figma', 'Mobile', 'Dark Theme', 'Marketplace'],
-    imageSrc: '/src/assets/images/fitnect.png',
+    imageSrc: fitnectImg,
     imageLeft: true
   },
   {
@@ -86,7 +89,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'Mr.Toy',
     description: 'A loyalty app for Mr.Toy retail chain — enabling customers to collect points, track membership tiers, redeem vouchers, and browse personalized promos.',
     tags: ['Figma', 'Mobile', 'Loyalty', 'CRM'],
-    imageSrc: '/src/assets/images/mrtoy.png',
+    imageSrc: mrtoyImg,
     imageLeft: false
   },
   {
@@ -95,7 +98,7 @@ export const DESIGN_SHOWCASE: DesignItem[] = [
     title: 'GoTani',
     description: 'A PaaS smart farming platform — farm dashboard, drone mapping, IoT sensor monitoring, task management, and tree health analytics for remote farm management.',
     tags: ['Figma', 'Web', 'Mobile', 'Dashboard', 'IoT'],
-    imageSrc: '/src/assets/images/gotani.png',
+    imageSrc: gotaniImg,
     imageLeft: true
   }
 ];

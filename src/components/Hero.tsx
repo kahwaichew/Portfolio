@@ -2,10 +2,11 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowRight, Download, Laptop, Smartphone, Palette } from 'lucide-react';
 import ResumeModal from './ResumeModal';
+import avatarImg from '../assets/images/avatar.jpg';
 
 export default function Hero() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
-  const avatarPath = '/src/assets/images/avatar.png';
+  const avatarPath = avatarImg;
 
   // Animation variants
   const containerVariants = {
